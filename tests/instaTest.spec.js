@@ -8,10 +8,10 @@ test('test', async ({ page }) => {
   const  Login = new LoginPage(page)
 
   await Login.gotoLoginPage()
-  await Login.login('befamousgaming@gmail.com', 'Deadshot@123' )
+  await Login.login('studds991', 'Ks@1234560' )
 
   const search = new SearchPage(page)
-  await search.Search('kahanhaimihir');
+  await search.Search('innocent_abhi_0215');
 
   const massage = new MassagePage(page)
   await massage.Massage('Hello mihir is it ok Bro...??');

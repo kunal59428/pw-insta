@@ -7,7 +7,7 @@ exports.SearchPage = class SearchPage {
 
         // this.userid = page.
         this.search_field = page.getByLabel('Search input')
-        this.search_name = page.getByText('kahanhaimihir')
+        this.search_name = page.getByText('innocent_abhi_0215')
 
 
         // this.login_button = page.locator('button._acan._acap._acas._aj1-._ap30'); 
