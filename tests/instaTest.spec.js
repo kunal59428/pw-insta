@@ -14,6 +14,6 @@ test('test', async ({ page }) => {
   await search.Search('innocent_abhi_0215');
 
   const massage = new MassagePage(page)
-  await massage.Massage('Hello mihir is it ok Bro...??');
+  await massage.Massage('Hello Sir is it ok...??');
 
 });
